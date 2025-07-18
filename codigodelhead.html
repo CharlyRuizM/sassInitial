@@ -1,0 +1,15 @@
+<?php
+  // Ruta al CSS compilado
+  $cssFile = __DIR__ . '/../css/main.css';
+  $version = file_exists($cssFile)
+           ? filemtime($cssFile)
+           : time();
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- codigo que va en el head -->
+  <link rel="stylesheet" href="/css/main.css?v=<?= $version ?>">
+</head>
+
+  <!-- tu contenido -->

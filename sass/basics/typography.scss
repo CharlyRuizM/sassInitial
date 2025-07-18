@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+// Ejemplo: estilo base para párrafos
+p {
+  @include font-style((
+    font-family: $font-sans,
+    font-weight: 400,
+    font-size: $font-base-size,
+    letter-spacing: 0,
+    text-transform: none
+  ));
+  margin: 0 0 1rem;
+}

@@ -1,0 +1,29 @@
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0 0 1rem;
+}
+
+@font-face {
+  font-family: "Holcim";
+  src: url("../fonts/Holcim-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #f7931e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+.btn:hover {
+  background: #da7908;
+}
+
+/*# sourceMappingURL=main.css.map */
